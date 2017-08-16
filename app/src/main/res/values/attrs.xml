@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PedometerProgressView">
+        <attr name="ppvTextColor" format="color"/>
+        <attr name="ppvRoundColor" format="color"/>
+        <attr name="ppvRoundProgressColor" format="color"/>
+        <attr name="ppvCircleWidth" format="dimension"/>
+        <attr name="ppvRadiusWidth" format="dimension"/>
+        <attr name="ppvCenterTextSize" format="integer"/>
+        <attr name="ppvOtherTextSize" format="integer"/>
+        <attr name="ppvMax" format="integer"/>
+        <attr name="ppvStartAngle" format="integer"/>
+    </declare-styleable>
+
+</resources>

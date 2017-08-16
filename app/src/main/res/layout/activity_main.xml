@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/circle1"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:background="@drawable/circle_two"/>
+
+        <ImageView
+            android:id="@+id/circle2"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_one"/>
+
+        <com.alost.microstep.presentation.view.component.PedometerProgressView
+            android:id="@+id/roundProgressBar"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_centerInParent="true"
+            app:ppvCenterTextSize="150"
+            app:ppvCircleWidth="16dp"
+            app:ppvOtherTextSize="60"
+            app:ppvRadiusWidth="8dp"
+            app:ppvRoundColor="#1A222222"
+            app:ppvRoundProgressColor="@color/green_color"
+            app:ppvTextColor="#ff69696f"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
